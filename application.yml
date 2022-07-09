@@ -2,11 +2,13 @@ spring:
   profiles:
     action: dev
     
+---
 spring:
   profiles: dev
   application:
     name: springcloud-config-dev
-    
+   
+---
 spring:
   profiles: test
   application:
